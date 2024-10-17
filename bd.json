@@ -1,0 +1,147 @@
+{
+  "properties": [
+    {
+      "id": 1,
+      "location": "Los Charrúas, Concordia, Entre Ríos",
+      "code": "CAZ-101505",
+      "description": "Venta casa en Los Charrúas",
+      "total_surface": "260 m2",
+      "covered_surface": "220 m2",
+      "uncovered_surface": "40 m2",
+      "features": {
+        "modern_amenities": [
+          "agua corriente",
+          "luz",
+          "pavimento",
+          "desagüe cloacal"
+        ]
+      },
+      "basic_information": {
+        "rooms": 3,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "condition": "A estrenar"
+      },
+      "price": "U$D 47.000",
+      "images": [],
+      "agent": {
+        "name": "Cazatti Soluciones Inmobiliarias",
+        "license": "CCPIER Mat 1523",
+        "contact": {
+          "phone": "03454024075",
+          "email": "cazattiailen@gmail.com"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "location": "Los Charrúas, Concordia, Entre Ríos",
+      "code": "CAZ-101507",
+      "description": "¡Bienvenido a la propiedad ubicada en Los Charrúas, Entre Ríos!",
+      "total_surface": "418 m2",
+      "covered_surface": "350 m2",
+      "uncovered_surface": "68 m2",
+      "basic_information": {
+        "rooms": 5,
+        "bedrooms": 3,
+        "bathrooms": 1,
+        "garages": 1,
+        "garage_type": "Semicubierto",
+        "antiquity": "Menos de 10 años"
+      },
+      "price": "U$D 97.000",
+      "images": [],
+      "agent": {
+        "name": "Cazatti Soluciones Inmobiliarias",
+        "license": "CCPIER Mat 1523",
+        "contact": {
+          "phone": "03454024075",
+          "email": "cazattiailen@gmail.com"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "location": "Concordia, Entre Ríos",
+      "code": "CAZ-97216",
+      "description": "En venta terreno en calles Yamandú Rodríguez y E. Poenitz, cerca de avenida Eva Perón.",
+      "covered_surface": "440 m2",
+      "basic_information": {
+        "access": "Otro terreno",
+        "disposition": "Otro",
+        "total_surface": "440 m2",
+        "front": "20 m",
+        "back": "20 m"
+      },
+      "features": [
+        "Agua corriente",
+        "Luz",
+        "Pavimento"
+      ],
+      "price": "U$D 35.000",
+      "images": [],
+      "agent": {
+        "name": "Cazatti Soluciones Inmobiliarias",
+        "license": "CCPIER Mat 1523",
+        "contact": {
+          "phone": "03454024075",
+          "email": "cazattiailen@gmail.com"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "location": "Concordia, Entre Ríos",
+      "code": "CAZ-104895",
+      "description": "En la exclusiva zona de Humberto I° en Concordia, se encuentra disponible un terreno de 389 m2.",
+      "total_surface": "389 m2",
+      "basic_information": {
+        "access": "Otro terreno",
+        "disposition": "Interno"
+      },
+      "features": [
+        "Agua corriente",
+        "Luz",
+        "Uso comercial"
+      ],
+      "price": "U$D 42.000",
+      "images": [],
+      "agent": {
+        "name": "Cazatti Soluciones Inmobiliarias",
+        "license": "CCPIER Mat 1523",
+        "contact": {
+          "phone": "03454024075",
+          "email": "cazattiailen@gmail.com"
+        }
+      }
+    },
+    {
+      "id": 5,
+      "location": "Juan José Valle 722, Concordia, Entre Ríos",
+      "code": "CAZ-99913",
+      "description": "Casa en venta sobre la calle Juan José Valle, con una orientación oeste.",
+      "total_surface": "300 m2",
+      "covered_surface": "258 m2",
+      "uncovered_surface": "42 m2",
+      "basic_information": {
+        "rooms": 5,
+        "bedrooms": 2,
+        "bathrooms": 1,
+        "garages": 1,
+        "garage_type": "Semicubierto",
+        "orientation": "Oeste",
+        "antiquity": "40 a 50 años"
+      },
+      "price": "U$D 40.000",
+      "images": [],
+      "agent": {
+        "name": "Cazatti Soluciones Inmobiliarias",
+        "license": "CCPIER Mat 1523",
+        "contact": {
+          "phone": "03454024075",
+          "email": "cazattiailen@gmail.com"
+        }
+      }
+    }
+  ]
+}
