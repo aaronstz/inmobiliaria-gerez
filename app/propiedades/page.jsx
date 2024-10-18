@@ -18,14 +18,14 @@ const page = async () => {
       <CarouselDefault url="https://images.unsplash.com/photo-1704207525603-9961bd5281e0?q=80&w=1828&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" />
       {/* <Searchbar /> */}
       <div className="lg:flex lg:justify-center lg:ml-40">
-        <div className="grid grid-cols-1 lg:mr-40 lg:max-h-md m-4 max-h-sm max-w-lg lg:max-w-screen-2xl md:max-h-lg md:max-w-screen-md">
+        <div className="grid grid-cols-1 lg:mr-60 lg:max-h-md m-4 max-h-sm max-w-lg lg:max-w-screen-2xl md:max-h-lg md:max-w-screen-md">
           <h1 className="font-serif text-2xl ml">Nuestras propiedades:</h1>
           <hr className="h-[2px] w-24 bg-gray-200 border-0 dark:bg-gray-500" />
           {properties.map((e) => (
             <div>
               <Link href={`/propiedades/${e.id}`}>
                 <div className="grid grid-cols-1 lg:flex md:flex gap-2 mt-4 lg:mt-10 md:mt-8 group cursor-pointer">
-                  <div className="lg:m-8 lg:p-8 lg:w-full lg:h-96 md:max-w-[30rem]">
+                  <div className="lg:m-8 lg:w-full lg:h-96 md:max-w-[30rem]">
                     <img
                       src={e.images[0]}
                       alt={e.title}
@@ -33,7 +33,7 @@ const page = async () => {
                     />
                   </div>
                   <div className="lg:w-full">
-                    <div className="lg:ml-10 lg:gap-2 lg:mt-16 md:ml-6">
+                    <div className="lg:gap-2 lg:mt-16 md:ml-6">
                       <h1 className="lg:w-80 w-40 font-semibold  text-gray-700 text-2xl ">{e.type} en {e.transaction.toLowerCase()}</h1>
                       <div className="flex gap-2">
                       <FaMapMarkerAlt className="text-gray-400 mt-2 " />
