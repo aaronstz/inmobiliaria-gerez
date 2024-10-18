@@ -2,8 +2,8 @@
 import { NextResponse } from 'next/server';
 import properties from '../data'; // Importamos las propiedades desde el archivo compartido
 
-export async function GET({ params }) {
-  const id = params;
+export async function GET(request, { params }) {
+  const id = params.id;
 
   // Buscar la propiedad por su ID
   const property = properties.find((prop) => prop.id === parseInt(id));

@@ -21,8 +21,8 @@ const page = async () => {
         <div className="grid grid-cols-1 lg:mr-60 lg:max-h-md m-4 max-h-sm max-w-lg lg:max-w-screen-2xl md:max-h-lg md:max-w-screen-md">
           <h1 className="font-serif text-2xl ml">Nuestras propiedades:</h1>
           <hr className="h-[2px] w-24 bg-gray-200 border-0 dark:bg-gray-500" />
-          {properties.map((e) => (
-            <div>
+          {properties.map((e, index) => (
+            <div key={e.id || index}>
               <Link href={`/propiedades/${e.id}`}>
                 <div className="grid grid-cols-1 lg:flex md:flex gap-2 mt-4 lg:mt-10 md:mt-8 group cursor-pointer">
                   <div className="lg:m-8 lg:w-full lg:h-96 md:max-w-[30rem]">
